@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestGetHeadingFromHTMLBasic(t *testing.T) {
+func TestGetHeadingFromHTML(t *testing.T) {
 	tests := []struct {
 		name      string
 		inputBody string
